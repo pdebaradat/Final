@@ -1,0 +1,24 @@
+.footer {
+    position: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #60b4b4;
+    color: white;
+ }
+
+ .no-top {
+    margin-top: 2px;
+    margin-bottom: 2px;
+ }
+
+ .custom-footer-image {
+   display: flex;
+   justify-content: center;
+}
+
+.p-c {
+   color: #3b7c82;
+   opacity: 80%;
+}
