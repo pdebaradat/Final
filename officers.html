@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pacific Northwest Guild of Cosplayers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+<body>
+  <img src="images/header.webp" alt="header" class="mx-auto d-block img-fluid">
+
+    <nav class="navbar navbar-expand-lg navbar-dark px-2" style="background-color: #60b4b4;">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+          <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+            <ul class="navbar-nav px-2">
+              <li class="nav-item d-flex justify-content-center px-1">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item d-flex justify-content-center px-1">
+                <a class="nav-link" href="about.html">About us</a>
+              </li>
+              <li class="nav-item d-flex justify-content-center px-1">
+                <a class="nav-link" href="member.html">Become a Member</a>
+              </li>    
+              <li class="nav-item d-flex justify-content-center px-1">
+                <a class="nav-link active" href="officers.html">Current Officers</a>
+              </li>    
+              <li class="nav-item d-flex justify-content-center px-1">
+                <a class="nav-link" href="events.html">Events</a>
+              </li>   
+              <li class="nav-item d-flex justify-content-center px-1">
+                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#contactmodal" style="cursor: pointer;">Contact</a>
+              </li>
+            </ul>
+          </div>
+    </nav>
+
+    <div class="modal fade" id="contactmodal" tabindex="-1" aria-labelledby="contactmodalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header justify-content-center">
+            <h5 class="modal-title" id="contactmodalLabel" style="text-align: center; color: #3b7c82;">Have a question?
+              <br>
+              Please feel free to contact us below
+            </h5>
+          </div>
+          <div class="modal-body d-felx justify-content-center" style="color: #3b7c82;">
+            <form action="" id="name-form">
+              <label for="fname">Name:</label><br>
+              <input type="text" name="fname" id="fname" class="p-c"><br>
+              <label class="pt-1">Email:</label><br>
+              <input type="text" class="p-c"><br>
+              <label class="pt-1">Subject:</label><br>
+              <input type="text" class="p-c"><br>
+              <label>Message:</label><br>
+              <div class="input-group">
+                <textarea class="form-control p-c" aria-label="With textarea"></textarea>
+              </div>
+          </form>
+          <br>
+          <div class="d-flex justify-content-center">
+            <input type="button" class="btn goose2" style="color: white;" value="Send" onclick="greet();"><br>
+          </div>
+          <div class="d-flex justify-content-center pt-2">
+            <p id="greet" style="color: #60b4b4;"></p>
+          </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn goose" data-bs-dismiss="modal" style="color: white;">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <h2 class="pt-4 pb-2 d-inline-flex border-bottom border-2" style="color: #3b7c82;">Current Officers</h2>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <div class="row pt-4 pb-4">
+          <div class="col-md-6 d-flex flex-column px-0">
+            <div class="d-inline-flex justify-content-center">
+                <img src="images/Bobbin.webp" alt="bobbin" class="mx-auto d-block img-fluid">
+            </div>
+            <div class="d-inline-flex justify-content-center">
+                <h2 class="d-inline-flex justify-content-center pt-2 border-bottom border-2" style="color: #3b7c82;">Bobbin Threadbare</h2>
+            </div>
+            <h4 class="d-inline-flex justify-content-center p-c">Founder/Conventions Officer</h4>
+            <a href="https://www.instagram.com/bobbinthreadbaredesigns/" class="link-underline-opacity-0 link-underline lala d-inline-flex justify-content-center p-c">@BobbinThreadbareDesigns</a>
+        </div>
+  
+        <div class="col-md-6 d-flex flex-column px-0">
+            <div class="d-inline-flex justify-content-center">
+                <img src="images/Trexy.webp" alt="bobbin" class="mx-auto d-block img-fluid">
+            </div>
+            <div class="d-inline-flex justify-content-center">
+                <h2 class="d-inline-flex justify-content-center pt-2 border-bottom border-2" style="color: #3b7c82;">Trexy</h2>
+            </div>
+            <h4 class="d-inline-flex justify-content-center p-c">Guildmaster</h4>
+            <a href="https://www.instagram.com/trexy.cosplay/" class="link-underline-opacity-0 link-underline lala d-inline-flex justify-content-center p-c">@BobbinThreadbareDesigns</a>
+        </div>
+        </div>
+      </div>
+
+      <br>
+      <br>
+    
+      <div class="container">
+        <div class="row pb-5 d-flex justify-content-center">
+          <div class="col-md-2 pt-2"></div>
+          <div class="col-md-8 pt-3 border-2 border-bottom"></div>
+          <div class="col-md-2 pt-2"></div>
+        </div>
+      </div>
+      
+      <br>
+
+    <div class="container">
+        <div class="row pb-4 d-flex">
+            <div class="col-md-1 pt-2"></div>
+            <div class="col-md-2 pt-2 flex-column d-inline-flex justify-content-center">
+                <img src="images/Roan.webp" alt="roan" class="mx-auto d-block img-fluid px-2">
+                <div class="d-flex justify-content-center">
+                    <a href="https://www.instagram.com/selkiestories/" class="link-underline-opacity-0 link-underline lala">@selkiestories</a>
+                </div>
+            </div>
+            <div class="col-md-2 pt-2 flex-column d-inline-flex justify-content-center">
+                <img src="images/Jupiter.webp" alt="jupiter" class="mx-auto d-block img-fluid px-2">
+                <div class="d-flex justify-content-center">
+                    <a href="https://www.instagram.com/jupiter.creative/" class="link-underline-opacity-0 link-underline lala">@jupiter.creative</a>
+                </div>
+            </div>
+            <div class="col-md-2 pt-2 flex-column d-inline-flex justify-content-center">
+                <img src="images/Wisteria.webp" alt="wisteria" class="mx-auto d-block img-fluid px-2">
+                <div class="d-flex justify-content-center">
+                    <a href="https://www.instagram.com/urbanflower_cosplayer/" class="link-underline-opacity-0 link-underline lala">@urbanflower_cosplayer</a>
+                </div>
+            </div>
+            <div class="col-md-2 pt-2 flex-column d-inline-flex justify-content-center">
+                <img src="images/Blarfingar.webp" alt="blarfinger" class="mx-auto d-block img-fluid px-2">
+                <div class="d-flex justify-content-center">
+                    <a href="https://www.instagram.com/drfickser/" class="link-underline-opacity-0 link-underline lala">@drfickser</a>
+                </div>
+            </div>
+            <div class="col-md-2 pt-2 flex-column d-inline-flex justify-content-center">
+                <img src="images/Smalls.webp" alt="smalls" class="mx-auto d-block img-fluid px-2">
+                <div class="d-flex justify-content-center">
+                    <a href="https://www.instagram.com/starfightersmalls/" class="link-underline-opacity-0 link-underline lala">@starfightersmalls</a>
+                </div>
+            </div>
+          <div class="col-md-1 pt-2"></div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row pt-0 pb-2">
+            <div class="col-md-1 d-flex flex-column px-0"></div>
+            <div class="col-md-10 p-2 d-flex justify-content-center">
+                <div id="demo" class="carousel slide px-3" data-bs-ride="carousel">
+        
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+                  </div>
+                  
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/selkie.jpg" alt="image 1" class="d-block" style="width: auto; max-height: 580px;">
+                      <div class="carousel-caption pt-2 pb-1" style="background-color: #3b7c82; color: white; opacity: 90%; border-radius: 20px;">
+                        <p>@selkiestories</p>
+                      </div> 
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/jupiter1.jpg" alt="image 2" class="d-block" style="width: auto; max-height: 580px;"> 
+                      <div class="carousel-caption pt-2 pb-1" style="background-color: #3b7c82; color: white; opacity: 90%; border-radius: 20px;">
+                        <p>@jupiter.creative</p>
+                      </div> 
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/urban.jpg" alt="image 3" class="d-block" style="width: auto; max-height: 580px;">  
+                      <div class="carousel-caption pt-2 pb-1" style="background-color: #3b7c82; color: white; opacity: 90%; border-radius: 20px;">
+                        <p>@urbanflower_cosplayer</p>
+                      </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/red1.jpg" alt="image 4" class="d-block" style="width: auto; max-height: 580px;">
+                        <div class="carousel-caption pt-2 pb-1" style="background-color: #3b7c82; color: white; opacity: 90%; border-radius: 20px;">
+                          <p>@claytures</p>
+                      </div> 
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/ilan1.jpg" alt="image 5" class="d-block" style="width: auto; max-height: 580px;">
+                      <div class="carousel-caption pt-2 pb-1" style="background-color: #3b7c82; color: white; opacity: 90%; border-radius: 20px;">
+                        <p>@ilananight</p>
+                      </div> 
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/lyrixx1.jpg" alt="image 6" class="d-block" style="width: auto; max-height: 580px;">
+                      <div class="carousel-caption pt-2 pb-1" style="background-color: #3b7c82; color: white; opacity: 90%; border-radius: 20px;">
+                        <p>@lyrixxcosplay</p>
+                      </div> 
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/josh1.jpg" alt="image 7" class="d-block" style="width: auto; max-height: 580px;">
+                      <div class="carousel-caption pt-2 pb-1" style="background-color: #3b7c82; color: white; opacity: 90%; border-radius: 20px;">
+                        <p>@joshingyoucosplay</p>
+                      </div> 
+                    </div>
+                  </div>
+                  
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+              </div>
+            <div class="col-md-1 d-flex flex-column px-0"></div>
+        </div>
+      </div>
+    
+      <div class="container">
+        <div class="row pb-5 pt-3 d-flex justify-content-center">
+            <div class="col-md-1 pt-2"></div>
+            <div class="col-md-2 pt-2 flex-column d-inline-flex justify-content-center">
+                <img src="images/Vincent.webp" alt="vincent" class="mx-auto d-block img-fluid px-2">
+                <div class="d-flex justify-content-center">
+                    <a href="https://www.instagram.com/ilananight/" class="link-underline-opacity-0 link-underline lala">@ilananight</a>
+                </div>
+            </div>
+            <div class="col-md-2 pt-2 flex-column d-inline-flex justify-content-center">
+                <img src="images/Nemo.webp" alt="nemo" class="mx-auto d-block img-fluid px-2">
+                <div class="d-flex justify-content-center">
+                    <a href="https://www.instagram.com/lyrixxcosplay/" class="link-underline-opacity-0 link-underline lala">@lyrixxcosplay</a>
+                </div>
+            </div>
+            <div class="col-md-2 pt-2 flex-column d-inline-flex justify-content-center">
+                <img src="images/Josh.webp" alt="josh" class="mx-auto d-block img-fluid px-2">
+                <div class="d-flex justify-content-center">
+                    <a href="https://www.instagram.com/joshingyoucosplay/" class="link-underline-opacity-0 link-underline lala">@joshingyoucosplay</a>
+                </div>
+            </div>
+            <div class="col-md-2 pt-2 flex-column d-inline-flex justify-content-center">
+                <img src="images/Red.webp" alt="red" class="mx-auto d-block img-fluid px-2">
+                <div class="d-flex justify-content-center">
+                    <a href="https://www.instagram.com/claytures/" class="link-underline-opacity-0 link-underline lala">@claytures</a>
+                </div>
+            </div>
+            <div class="col-md-2 pt-2 flex-column d-inline-flex justify-content-center">
+                <img src="images/Ken.webp" alt="ken" class="mx-auto d-block img-fluid px-2">
+                <div class="d-flex justify-content-center">
+                    <a href="https://www.instagram.com/willkennphotography/" class="link-underline-opacity-0 link-underline lala">@willkennphotography</a>
+                </div>
+            </div>
+          <div class="col-md-1 pt-2"></div>
+        </div>
+      </div>
+
+      <br>
+      <br>
+
+    <div class="footer">
+      <p class="no-top" style="margin-top: 4px;">Contact Us</p>
+      <a class="link-opacity-75-hover no-top link-underline-opacity-0 link-underline link-light" href="mailto:pnwguildofcosplayers@gmail.com">pnwguildofcosplayers@gmail.com</a>
+      <div class="wrap custom-footer-image">
+        <a class="no-top" style="margin-left: 4px; margin-right: 4px; filter: invert(100%);" href="https://www.instagram.com/pnwguildofcosplayers/"><img src="images/instagram.png" alt="Instagram logo" width="35px" height="35px"></a>
+        <a class="no-top" style="margin-left: 4px; margin-right: 4px; filter: invert(100%);" href="https://www.facebook.com/PNWguildofcosplayers/"><img src="images/facebook.png" alt="Facebook logo" width="35px" height="35px"></a>
+        <a class="no-top" style="margin-left: 4px; margin-right: 4px; filter: invert(100%);" href="https://twitter.com/pnwcosplayguild?lang=en"><img src="images/twitter.png" alt="Twitter logo" width="35px" height="35px"></a>
+      </div>
+      <p class="no-top" style="padding-bottom: 4px; margin-bottom: 0px; font-size: small;">Copyright 2022 - PNWGuildOfCosplayers.com</p>
+    </div>
+
+    <script src="js/js.js"></script>
+</body>
+</html>
